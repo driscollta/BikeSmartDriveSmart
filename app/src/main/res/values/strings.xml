@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">BikeSmart DriveSmart</string>
+    <string name="travel_mode_title">Motorist or Cyclist?</string>
+    <string name="pick_scenario_title">Choose a scenario</string>
+    <string name="test">Look twice; cyclists can go faster than you think</string>
+    <string name="help">info</string>
+    <string name="info_text">These are typical scenarios one may encounter when cycling or driving. Contact the local motor vehicle department for specific advice in your local area.
+    \n\n<b>Observe &amp; Learn</b>
+        \n\tThis app is just a starting point for Driving Smart and Cycling Smart. Learn from your own and others\' encounters.
+
+    \n\n<b>Don\'t blame; Tolerate and Educate</b>
+        \n\tShare this app with your friends.  Pass on your knowledge to others.
+
+    \n\n<b>Take Responsibility for your Safety</b>
+        \n\tDon\'t rely on others\' correct action for your safety. Give yourself some margin for error.
+
+    \n\n<b>Learn More</b>
+        \n\tMany resources exist on the Internet such as\n"http://bicyclesafe.com/" and \n"http://www.bikeleague.org/"
+    </string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="tip_title">Safety tip:</string>
+
+    <string-array name="travel_mode_spinner_choices">
+        <item>Motorist</item>
+        <item>Cyclist</item>
+    </string-array>
+
+    <string-array name="scenario_spinner_choices">
+        <item>Scenario</item>
+        <item>Right Cross</item>
+        <item>Left Hook</item>
+        <item>Right Hook</item>
+        <item>Dooring</item>
+        <item>Pull-out</item>
+    </string-array>
+
+    <string-array name="scenario0DriverTips">
+        <item>Do you see the cyclist in the bike lane?</item>
+    </string-array>
+
+    <string-array name="scenario1DriverTips">
+        <item>Don\'t run the red light or stop sign</item>
+        <item>Look twice; cyclists can go faster than you think</item>
+        <item>Watch for "wrong-way" cyclists coming from your right</item>
+        <item>Put down the cell phone; don\'t drive distracted</item>
+    </string-array>
+
+    <string-array name="scenario2DriverTips">
+        <item>Use your turn signal</item>
+        <item>Watch for cyclists on sidewalk</item>
+        <item>Watch for cyclists if cars are turning left in front of you</item>
+        <item>Clean your windshield</item>
+        <item>Wear sunglasses and use the visor if there is glare</item>
+    </string-array>
+
+    <string-array name="scenario3DriverTips">
+        <item>Slow down; let cyclist go ahead if unsafe to pass</item>
+        <item>Cyclists can go faster than you think</item>
+        <item>Use turn signal</item>
+        <item>Watch for cyclists on sidewalk</item>
+        <item>Watch for "wrong-way" cyclists</item>
+    </string-array>
+
+    <string-array name="scenario4DriverTips">
+        <item>Look in mirrors, then look again</item>
+        <item>Look over your left shoulder</item>
+        <item>Open door slowly</item>
+
+    </string-array>
+
+    <string-array name="scenario5DriverTips">
+        <item>Look in mirrors, then look again</item>
+        <item>Use turn signal</item>
+        <item>Pull out slowly, look in mirrors again</item>
+    </string-array>
+
+    <string-array name="scenario0CycleTips">
+        <item>Does this look safe?</item>
+    </string-array>
+
+    <string-array name="scenario1CycleTips">
+        <item>Pay attention to cars on your right</item>
+        <item>Verify that car is stopped</item>
+        <item>Slow down and be ready to brake</item>
+        <item>Ride as far as possible to the left in bike lane</item>
+        <item>Be visible - use a front light</item>
+        <item>Don\'t run a red light or stop sign</item>
+    </string-array>
+
+    <string-array name="scenario2CycleTips">
+        <item>Slow down, determine if driver sees you</item>
+        <item>Verify that car is stopped</item>
+        <item>Be visible - use a front light</item>
+        <item>Don\'t pass cars on the right</item>
+        <item>Don\'t ride on the sidewalk</item>
+    </string-array>
+
+    <string-array name="scenario3CycleTips">
+        <item>Glance to the left before approaching an intersection</item>
+        <item>Ride as far to the left as possible in bike lane</item>
+        <item>Don\'t ride on the sidewalk</item>
+        <item>Don\'t pass stopped or slow cars on the right</item>
+        <item>Lose the ear buds, you may hear a car next to you</item>
+    </string-array>
+
+    <string-array name="scenario4CycleTips">
+        <item>Try to see if car is occupied: tail lights on?</item>
+        <item>Slow down and be ready to brake</item>
+        <item>Check if it is safe to leave bike lane</item>
+        <item>Ride as far to the left as possible in bike lane</item>
+        <item>Be visible - use a front light</item>
+    </string-array>
+
+    <string-array name="scenario5CycleTips">
+        <item>Anticipate car may pull-out: tail lights or turn signal on?</item>
+        <item>Slow down and be ready to brake</item>
+        <item>Ride as far to the left as possible in bike lane</item>
+        <item>Be visible - use a front light</item>
+        <item>Check if it is safe to leave bike lane</item>
+    </string-array>
+
+    <string-array name="scenarioTitles">
+        <item>Potentially dangerous intersection</item>
+        <item>Car enters from side street, parking lot, or driveway</item>
+        <item>Car approaching turns left in front of cyclist</item>
+        <item>Car passes &amp; makes a right turn around cyclist</item>
+        <item>Driver opens the door as cyclist is passing</item>
+        <item>Car exits parking space as cyclist is passing</item>
+    </string-array>
+</resources>

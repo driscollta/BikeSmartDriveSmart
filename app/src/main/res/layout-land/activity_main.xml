@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/spinnerLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/scenarioTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/pick_scenario_title" />
+
+        <Spinner
+            android:id="@+id/scenarioSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/apptheme_spinner_background_holo_light"/>
+
+        <TextView
+            android:id="@+id/travelModeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/travel_mode_title" />
+
+        <Spinner
+            android:id="@+id/travelModeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/apptheme_spinner_background_holo_light"/>
+        <TextView
+            android:id="@+id/tipTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/tip_title" />
+        <LinearLayout
+            android:id="@+id/tipTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#d9d9d9">
+
+            <Button
+                android:id="@+id/previousTipButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="showPrevTip"
+                android:background="@drawable/tip_backward_button_selector"  />
+
+            <TextView
+                android:id="@+id/tipText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="#d9d9d9"
+                android:textSize="14sp"
+                android:text="@string/test"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/nextTipButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="showNextTip"
+                android:background="@drawable/tip_forward_button_selector" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/scenarioDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/test"
+            android:layout_marginTop="5dp"/>
+        <ImageView
+            android:id="@+id/scenarioImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/road"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_horizontal|bottom" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
